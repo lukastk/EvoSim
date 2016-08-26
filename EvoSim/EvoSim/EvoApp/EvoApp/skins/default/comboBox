@@ -1,0 +1,84 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "ComboBox"
+USE_SPRITESHEET "ComboBox"
+
+TopLeftCorner					ComboBox/topLeftCorner
+TopRightCorner					ComboBox/topRightCorner
+BottomLeftCorner				ComboBox/bottomLeftCorner
+BottomRightCorner				ComboBox/bottomRightCorner
+
+TopBorder						ComboBox/topBorder
+BottomBorder					ComboBox/bottomBorder
+LeftBorder						ComboBox/leftBorder
+RightBorder						ComboBox/rightBorder
+
+LeftHeader						ComboBox/leftHeader
+RightHeader						ComboBox/rightHeader
+TopHeader						ComboBox/topHeader
+
+Inside							ComboBox/inside
+
+[FONTS]
+
+CATEGORY "ComboBox"
+
+Font @General;FontSmall
+
+[TEXTURES]
+
+CATEGORY "ComboBox.IconButton"
+USE_SPRITESHEET "ComboBox"
+
+# NOT PRESSED ==========================================
+
+TopLeftCorner					ComboBox/Icon/topLeftCorner
+TopRightCorner					ComboBox/Icon/topRightCorner
+BottomLeftCorner				ComboBox/Icon/bottomLeftCorner
+BottomRightCorner				ComboBox/Icon/bottomRightCorner
+
+TopBorder						ComboBox/Icon/topBorder
+BottomBorder					ComboBox/Icon/bottomBorder
+LeftBorder						ComboBox/Icon/leftBorder
+RightBorder						ComboBox/Icon/rightBorder
+
+LeftHeader						ComboBox/Icon/leftHeader
+RightHeader						ComboBox/Icon/rightHeader
+TopHeader						ComboBox/Icon/topHeader
+
+Inside							ComboBox/Icon/inside
+
+Icon							ComboBox/Icon/icon
+
+# PRESSED ==============================================
+
+TopLeftCornerPressed			ComboBox/Icon/Pressed/topLeftCorner
+TopRightCornerPressed			ComboBox/Icon/Pressed/topRightCorner
+BottomLeftCornerPressed			ComboBox/Icon/Pressed/bottomLeftCorner
+BottomRightCornerPressed		ComboBox/Icon/Pressed/bottomRightCorner
+
+TopBorderPressed				ComboBox/Icon/Pressed/topBorder
+BottomBorderPressed				ComboBox/Icon/Pressed/bottomBorder
+LeftBorderPressed				ComboBox/Icon/Pressed/leftBorder
+RightBorderPressed				ComboBox/Icon/Pressed/rightBorder
+
+LeftHeaderPressed				ComboBox/Icon/Pressed/leftHeader
+RightHeaderPressed				ComboBox/Icon/Pressed/rightHeader
+TopHeaderPressed				ComboBox/Icon/Pressed/topHeader
+
+InsidePressed					ComboBox/Icon/Pressed/inside
+
+IconPressed						ComboBox/Icon/Pressed/icon
+
+[FONTS]
+
+CATEGORY "ComboBox.IconButton"
+
+Font @General;FontSmall
+
+[TEXTURES]
+
+CATEGORY "ComboBox.VScrollbar"
+IMPORT_CATEGORY "VScrollbar"

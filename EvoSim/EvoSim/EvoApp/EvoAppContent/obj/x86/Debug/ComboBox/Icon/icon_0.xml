@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:Texture2DContent">
+    <Identity>
+      <SourceFilename>C:\Users\Lukas\Documents\Programming\DEV-MAIN\EvoSim\EvoSim\EvoApp\EvoAppContent\ComboBox\Icon\icon.png</SourceFilename>
+      <SourceTool>TextureImporter</SourceTool>
+    </Identity>
+    <Mipmaps>
+      <Mipmap Type="Graphics:PixelBitmapContent[Framework:Color]">
+        <Width>9</Width>
+        <Height>6</Height>
+        <Pixels>
+          <Row>FF2F3A63 FF2F3A63 FF404B73 FF404B73 FF404B73 FF404B73 FF404B73 FF2F3A63 FF2F3A63</Row>
+          <Row>FF2A314D FF2A314D FF2F3A63 FF404B73 FF404B73 FF404B73 FF2F3A63 FF2A314D FF2A314D</Row>
+          <Row>FF404B73 FF2A314D FF2A314D FF2F3A63 FF404B73 FF2F3A63 FF2A314D FF2A314D FF404B73</Row>
+          <Row>FF404B73 FF404B73 FF2A314D FF2A314D FF2F3A63 FF2A314D FF2A314D FF404B73 FF404B73</Row>
+          <Row>FF404B73 FF404B73 FF404B73 FF2A314D FF2A314D FF2A314D FF404B73 FF404B73 FF404B73</Row>
+          <Row>FF404B73 FF404B73 FF404B73 FF404B73 FF2A314D FF404B73 FF404B73 FF404B73 FF404B73</Row>
+        </Pixels>
+      </Mipmap>
+    </Mipmaps>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<!--FileSelector-->
+	<Item>FileSelector/topRightCorner.png</Item>
+	<Item>FileSelector/bottomLeftCorner.png</Item>
+	<Item>FileSelector/bottomRightCorner.png</Item>
+	<Item>FileSelector/upperFieldBottomRightCorner.png</Item>
+
+	<Item>FileSelector/topBorder.png</Item>
+	<Item>FileSelector/bottomBorder.png</Item>
+	<Item>FileSelector/leftBorder.png</Item>
+	<Item>FileSelector/middleBorder.png</Item>
+	<Item>FileSelector/rightBorder.png</Item>
+
+	<Item>FileSelector/inside.png</Item>
+
+	<Item>FileSelector/folderSign.png</Item>
+
+	<!--Up Icon-->
+	<Item>FileSelector/UpIcon/top.png</Item>
+	<Item>FileSelector/UpIcon/bottom.png</Item>
+	<Item>FileSelector/UpIcon/left.png</Item>
+	<Item>FileSelector/UpIcon/right.png</Item>
+	<Item>FileSelector/UpIcon/inside.png</Item>
+	<Item>FileSelector/UpIcon/upSign.png</Item>
+
+	<Item>FileSelector/UpIcon/Pressed/inside.png</Item>
+	<Item>FileSelector/UpIcon/Pressed/upSign.png</Item>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,9 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Cursors"
+USE_SPRITESHEET "Cursors"
+
+Cursor							Cursors/cursor
+ResizeCursor					Cursors/resizeCursor

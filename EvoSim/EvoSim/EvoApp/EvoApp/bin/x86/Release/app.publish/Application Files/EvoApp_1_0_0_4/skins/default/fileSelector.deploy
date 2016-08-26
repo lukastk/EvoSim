@@ -1,0 +1,41 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "FileSelector"
+USE_SPRITESHEET "FileSelector"
+
+TopRightCorner					FileSelector/topRightCorner
+BottomLeftCorner				FileSelector/bottomLeftCorner
+BottomRightCorner				FileSelector/bottomRightCorner
+UpperFieldBottomRightCorner		FileSelector/upperFieldBottomRightCorner
+
+TopBorder						FileSelector/topBorder
+BottomBorder					FileSelector/bottomBorder
+LeftBorder						FileSelector/leftBorder
+MiddleBorder					FileSelector/middleBorder
+RightBorder						FileSelector/rightBorder
+
+Inside							FileSelector/inside
+
+FolderSign						FileSelector/folderSign
+
+# "Up" Icon
+IconTop							FileSelector/UpIcon/top
+IconBottom						FileSelector/UpIcon/bottom
+IconLeft						FileSelector/UpIcon/left
+IconRight						FileSelector/UpIcon/right
+IconInside						FileSelector/UpIcon/inside
+IconUpSign						FileSelector/UpIcon/upSign
+
+IconInsidePressed				FileSelector/UpIcon/Pressed/inside
+IconUpSignPressed				FileSelector/UpIcon/Pressed/upSign
+
+CATEGORY "FileSelector.VScrollbar"
+IMPORT_CATEGORY "VScrollbar"
+
+[FONTS]
+
+CATEGORY "FileSelector"
+
+Font @General;FontSmall

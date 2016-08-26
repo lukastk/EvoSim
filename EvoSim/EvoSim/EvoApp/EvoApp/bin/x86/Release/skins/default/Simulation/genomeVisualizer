@@ -1,0 +1,7 @@
+USE_CONTENTDIR "Content"
+
+[FONTS]
+
+CATEGORY "Simulation/GenomeVisualizer"
+
+Font @General;FontSmall

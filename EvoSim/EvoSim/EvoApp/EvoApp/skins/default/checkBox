@@ -1,0 +1,9 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "CheckBox"
+USE_SPRITESHEET "CheckBox"
+
+Checked					CheckBox/checked
+Unchecked				CheckBox/unchecked

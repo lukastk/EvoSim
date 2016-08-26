@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:Texture2DContent">
+    <Identity>
+      <SourceFilename>C:\DEV-MAIN\EvoSim\EvoSim\EvoApp\EvoAppContent\Form\Body\topRightCorner.png</SourceFilename>
+      <SourceTool>TextureImporter</SourceTool>
+    </Identity>
+    <Mipmaps>
+      <Mipmap Type="Graphics:PixelBitmapContent[Framework:Color]">
+        <Width>4</Width>
+        <Height>4</Height>
+        <Pixels>
+          <Row>FF1E253F B8151A2D 12020204 00000000</Row>
+          <Row>FF1E253F FF1E253F FB1D243E 12020204</Row>
+          <Row>FF1E253F FF1E253F FF1E253F B8151A2D</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FC1D243E</Row>
+        </Pixels>
+      </Mipmap>
+    </Mipmaps>
+  </Asset>
+</XnaContent>

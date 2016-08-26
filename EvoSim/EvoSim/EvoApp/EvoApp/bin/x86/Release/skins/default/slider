@@ -1,0 +1,12 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Slider"
+USE_SPRITESHEET "Slider"
+# BODY ==============================================
+
+Milestone					Slider/milestone
+Pointer						Slider/pointer
+RailEdge					Slider/railEdge
+RailMiddle					Slider/railMiddle

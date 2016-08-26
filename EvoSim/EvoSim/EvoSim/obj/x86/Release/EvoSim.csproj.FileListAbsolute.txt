@@ -1,0 +1,7 @@
+C:\DEV-MAIN\EvoSim\EvoSim\EvoSim\bin\x86\Release\EvoSim.dll
+C:\DEV-MAIN\EvoSim\EvoSim\EvoSim\bin\x86\Release\EvoSim.pdb
+C:\DEV-MAIN\EvoSim\EvoSim\EvoSim\bin\x86\Release\TakaGUI.dll
+C:\DEV-MAIN\EvoSim\EvoSim\EvoSim\obj\x86\Release\ResolveAssemblyReference.cache
+C:\DEV-MAIN\EvoSim\EvoSim\EvoSim\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\DEV-MAIN\EvoSim\EvoSim\EvoSim\obj\x86\Release\EvoSim.dll
+C:\DEV-MAIN\EvoSim\EvoSim\EvoSim\obj\x86\Release\EvoSim.pdb

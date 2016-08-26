@@ -1,0 +1,42 @@
+NAME "Agamemnon Default Skin"
+AUTHOR "Lukas Kikuchi"
+COMMENT ""
+
+[COLORS]
+
+# COLOURNAME				RED     GREEN   BLUE
+# ==============================================
+Background					0		0		0
+
+# General Resources
+INCLUDE_FILE					"fonts"
+INCLUDE_FILE					"cursors"
+
+# Independent Resources
+INCLUDE_FILE					"checkBox"
+INCLUDE_FILE                    "closeButton"
+INCLUDE_FILE					"columnListBox"
+INCLUDE_FILE					"console"
+INCLUDE_FILE                    "entityEditBox"
+INCLUDE_FILE					"form"
+INCLUDE_FILE					"fpsMeter"
+INCLUDE_FILE                    "gameWorldEditBox"
+INCLUDE_FILE					"label"
+INCLUDE_FILE					"resizableButton"
+INCLUDE_FILE					"scrollbars"
+INCLUDE_FILE					"slider"
+INCLUDE_FILE					"splitPanels"
+INCLUDE_FILE					"tabContainer"
+INCLUDE_FILE					"textField"
+INCLUDE_FILE					"toolbar"
+
+#Dependent Resources
+INCLUDE_FILE                    "comboBox"
+INCLUDE_FILE					"fileSelector"
+
+#Simulation Resources
+INCLUDE_FILE					"Simulation/worldBox"
+INCLUDE_FILE					"Simulation/spikeNetVisualizer"
+INCLUDE_FILE					"Simulation/RMP_NetVisualizer"
+INCLUDE_FILE					"Simulation/RMP_NetNumberVisualizer"
+INCLUDE_FILE					"Simulation/genomeVisualizer"

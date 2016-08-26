@@ -1,0 +1,50 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "TabContainer"
+USE_SPRITESHEET "TabContainer"
+
+# BODY ==============================================
+
+TopLeftCorner						TabContainer/topLeftCorner
+TopRightCorner						TabContainer/topRightCorner
+BottomLeftCorner					TabContainer/bottomLeftCorner
+BottomRightCorner					TabContainer/bottomRightCorner
+
+TopBorder							TabContainer/topBorder
+BottomBorder						TabContainer/bottomBorder
+LeftBorder							TabContainer/leftBorder
+RightBorder							TabContainer/rightBorder
+
+# BUTTON ==============================================
+
+ButtonTopLeftCorner					TabContainer/Button/topLeftCorner
+ButtonTopRightCorner				TabContainer/Button/topRightCorner
+ButtonBottomLeftCorner				TabContainer/Button/bottomLeftCorner
+ButtonBottomRightCorner				TabContainer/Button/bottomRightCorner
+
+ButtonTopBorder						TabContainer/Button/topBorder
+ButtonBottomBorder					TabContainer/Button/bottomBorder
+ButtonLeftBorder					TabContainer/Button/leftBorder
+ButtonRightBorder					TabContainer/Button/rightBorder
+
+ButtonInside						TabContainer/Button/inside
+
+ButtonInsidePressed					TabContainer/Button/insidePressed
+ButtonTopLeftCornerPressed			TabContainer/Button/topLeftCornerPressed
+ButtonTopRightCornerPressed			TabContainer/Button/topRightCornerPressed
+
+[FONTS]
+
+CATEGORY "TabContainer"
+
+Font	@General;FontSmall
+
+[COLORS]
+
+CATEGORY "TabContainer"
+
+# COLOURNAME				RED     GREEN   BLUE
+# ==============================================
+FontColor					255		255		255

@@ -1,0 +1,28 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "TextField"
+USE_SPRITESHEET "TextField"
+
+TopLeftCorner					TextField/topLeftCorner
+TopRightCorner					TextField/topRightCorner
+BottomLeftCorner				TextField/bottomLeftCorner
+BottomRightCorner				TextField/bottomRightCorner
+
+TopBorder						TextField/topBorder
+BottomBorder					TextField/bottomBorder
+LeftBorder						TextField/leftBorder
+RightBorder						TextField/rightBorder
+
+LeftHeader						TextField/leftHeader
+RightHeader						TextField/rightHeader
+TopHeader						TextField/topHeader
+
+Inside							TextField/inside
+
+[FONTS]
+
+CATEGORY "TextField"
+
+Font @General;FontSmall

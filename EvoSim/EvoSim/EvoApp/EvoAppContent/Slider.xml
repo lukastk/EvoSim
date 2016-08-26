@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<Item>Slider/milestone.png</Item>
+	<Item>Slider/pointer.png</Item>
+	<Item>Slider/railEdge.png</Item>
+	<Item>Slider/railMiddle.png</Item>
+  </Asset>
+</XnaContent>

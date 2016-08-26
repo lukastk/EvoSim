@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:Texture2DContent">
+    <Identity>
+      <SourceFilename>C:\Users\Lukas\Documents\Programming\DEV-MAIN\EvoSim\EvoSim\EvoApp\EvoAppContent\ResizableButton\bottomLeftCorner.png</SourceFilename>
+      <SourceTool>TextureImporter</SourceTool>
+    </Identity>
+    <Mipmaps>
+      <Mipmap Type="Graphics:PixelBitmapContent[Framework:Color]">
+        <Width>4</Width>
+        <Height>3</Height>
+        <Pixels>
+          <Row>7C161C30 FF1E253F FF273051 FF273051</Row>
+          <Row>00000000 7C161C30 FF1E253F FF1E253F</Row>
+          <Row>00000000 00000000 7C161C30 7C161C30</Row>
+        </Pixels>
+      </Mipmap>
+    </Mipmaps>
+  </Asset>
+</XnaContent>

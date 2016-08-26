@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:Texture2DContent">
+    <Identity>
+      <SourceFilename>C:\DEV-MAIN\EvoSim\EvoSim\EvoApp\EvoAppContent\Form\Body\rightHeader.png</SourceFilename>
+      <SourceTool>TextureImporter</SourceTool>
+    </Identity>
+    <Mipmaps>
+      <Mipmap Type="Graphics:PixelBitmapContent[Framework:Color]">
+        <Width>4</Width>
+        <Height>15</Height>
+        <Pixels>
+          <Row>FF1E253F EB1B223A 23040508 00000000</Row>
+          <Row>FF1E253F FF1E253F FF1E253F 23040508</Row>
+          <Row>FF1E253F FF1E253F FF1E253F EB1B223A</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+          <Row>FF1E253F FF1E253F FF1E253F FF1E253F</Row>
+        </Pixels>
+      </Mipmap>
+    </Mipmaps>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,25 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "HScrollbar"
+USE_SPRITESHEET "HScrollbar"
+# BODY ==============================================
+
+BarButton					HScrollbar/barButton
+BarButtonPressed			HScrollbar/barButtonPressed
+BarInside					HScrollbar/barInside
+ScrollerEdge				HScrollbar/scrollerEdge
+ScrollerInside				HScrollbar/scrollerInside
+ScrollerCenter				HScrollbar/scrollerCenter
+
+CATEGORY "VScrollbar"
+USE_SPRITESHEET "VScrollbar"
+# BODY ==============================================
+
+BarButton					VScrollbar/barButton
+BarButtonPressed			VScrollbar/barButtonPressed
+BarInside					VScrollbar/barInside
+ScrollerEdge				VScrollbar/scrollerEdge
+ScrollerInside				VScrollbar/scrollerInside
+ScrollerCenter				VScrollbar/scrollerCenter

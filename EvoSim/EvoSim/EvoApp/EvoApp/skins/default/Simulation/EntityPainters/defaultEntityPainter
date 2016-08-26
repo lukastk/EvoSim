@@ -1,0 +1,7 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Simulation/EntityPainters/DefaultEntityPainter"
+
+Texture				Simulation/EntityTextures/circle

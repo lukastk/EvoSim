@@ -1,0 +1,15 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Simulation/WorldBox"
+USE_SPRITESHEET "Simulation/WorldBox"
+
+Creature			Simulation/EntityTextures/creature
+Food				Simulation/EntityTextures/circle
+
+[FONTS]
+
+CATEGORY "Simulation/WorldBox"
+
+Font @General;FontSmall

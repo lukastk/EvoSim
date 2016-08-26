@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:Texture2DContent">
+    <Identity>
+      <SourceFilename>C:\Users\Lukas\Documents\Programming\DEV-MAIN\EvoSim\EvoSim\EvoApp\EvoAppContent\HScrollbar\barInside.png</SourceFilename>
+      <SourceTool>TextureImporter</SourceTool>
+    </Identity>
+    <Mipmaps>
+      <Mipmap Type="Graphics:PixelBitmapContent[Framework:Color]">
+        <Width>1</Width>
+        <Height>15</Height>
+        <Pixels>
+          <Row>FF343A4F</Row>
+          <Row>FF404761</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF4B5370</Row>
+          <Row>FF404761</Row>
+          <Row>FF343A4F</Row>
+        </Pixels>
+      </Mipmap>
+    </Mipmaps>
+  </Asset>
+</XnaContent>

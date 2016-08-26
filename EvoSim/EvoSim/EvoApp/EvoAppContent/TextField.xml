@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<Item>TextField/topLeftCorner.png</Item>
+	<Item>TextField/topRightCorner.png</Item>
+	<Item>TextField/bottomLeftCorner.png</Item>
+	<Item>TextField/bottomRightCorner.png</Item>
+
+	<Item>TextField/topBorder.png</Item>
+	<Item>TextField/bottomBorder.png</Item>
+	<Item>TextField/leftBorder.png</Item>
+	<Item>TextField/rightBorder.png</Item>
+
+	<Item>TextField/inside.png</Item>
+  </Asset>
+</XnaContent>

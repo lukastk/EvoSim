@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<!--Not pressed-->
+	<Item>ResizableButton/topLeftCorner.png</Item>
+	<Item>ResizableButton/topRightCorner.png</Item>
+	<Item>ResizableButton/bottomLeftCorner.png</Item>
+	<Item>ResizableButton/bottomRightCorner.png</Item>
+
+	<Item>ResizableButton/topBorder.png</Item>
+	<Item>ResizableButton/bottomBorder.png</Item>
+	<Item>ResizableButton/leftBorder.png</Item>
+	<Item>ResizableButton/rightBorder.png</Item>
+
+	<Item>ResizableButton/inside.png</Item>
+
+	<!--Pressed-->
+	<Item>ResizableButton/Pressed/topLeftCorner.png</Item>
+	<Item>ResizableButton/Pressed/topRightCorner.png</Item>
+	<Item>ResizableButton/Pressed/bottomLeftCorner.png</Item>
+	<Item>ResizableButton/Pressed/bottomRightCorner.png</Item>
+
+	<Item>ResizableButton/Pressed/topBorder.png</Item>
+	<Item>ResizableButton/Pressed/bottomBorder.png</Item>
+	<Item>ResizableButton/Pressed/leftBorder.png</Item>
+	<Item>ResizableButton/Pressed/rightBorder.png</Item>
+
+	<Item>ResizableButton/Pressed/inside.png</Item>
+  </Asset>
+</XnaContent>

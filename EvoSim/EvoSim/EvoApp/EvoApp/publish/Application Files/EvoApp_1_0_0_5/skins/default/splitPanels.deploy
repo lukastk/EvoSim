@@ -1,0 +1,8 @@
+USE_CONTENTDIR "Content"
+
+[COLORS]
+
+CATEGORY "SplitPanel"
+#NAME								R		G		B		A
+InnerBorderColor					33		41		70		255
+OuterBorderColor					46		55		76		125

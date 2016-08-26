@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<Item>Cursors/cursor.png</Item>
+	<Item>Cursors/resizeCursor.png</Item>
+  </Asset>
+</XnaContent>

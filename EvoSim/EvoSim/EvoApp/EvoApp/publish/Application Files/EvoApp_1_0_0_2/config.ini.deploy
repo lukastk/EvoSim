@@ -1,0 +1,7 @@
+[Graphics]
+PreferredBackBufferWidth=800
+PreferredBackBufferHeight=600
+IsFullScreen=false
+IsFixedTimeStep=false
+DefaultSkinFile=skins/default/default.skin
+EditorDataSaveDir=editor.dat

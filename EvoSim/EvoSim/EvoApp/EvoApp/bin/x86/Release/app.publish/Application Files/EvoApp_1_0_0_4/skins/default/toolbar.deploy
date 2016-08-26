@@ -1,0 +1,29 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Toolbar"
+USE_SPRITESHEET "Toolbar"
+
+Top						Toolbar/top
+Bottom					Toolbar/bottom
+
+[FONTS]
+
+CATEGORY "Toolbar"
+
+Font @General;FontSmall
+
+[COLORS]
+
+CATEGORY "Toolbar"
+
+DropdownBorder			30		37		63
+DropdownBody			69		72		123
+HighlightBorder			229		195		101
+HighlightBody			255		236		181
+SeparatorColor			150		150		150
+ElementHighlightColor	49		52		103
+
+FontColor				255		255		255
+FontHighlightColor		0		0		0

@@ -1,0 +1,7 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Simulation/EntityPainters/DefaultCreaturePainter"
+
+Texture				Simulation/EntityTextures/creature

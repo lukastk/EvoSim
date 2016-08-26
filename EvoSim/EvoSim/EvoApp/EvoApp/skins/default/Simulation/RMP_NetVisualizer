@@ -1,0 +1,9 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Simulation/RMP_NetVisualizer"
+USE_SPRITESHEET "Simulation/RMP_NetVisualizer"
+
+Circle				Simulation/circle
+SmallCircle			Simulation/smallCircle

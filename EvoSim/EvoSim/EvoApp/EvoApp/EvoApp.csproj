@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FC38E200-DE69-4079-88CB-4C96D79AFECA}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EvoApp</RootNamespace>
+    <AssemblyName>EvoApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>b9b7491e-e62f-4c3d-87c5-159cc1de200e</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <Thumbnail>
+    </Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7C9719FC49BEB58F440CFB80077F85CE3770D65F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>EvoApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Creature.cs" />
+    <Compile Include="Creatures\RMPController.cs" />
+    <Compile Include="Creatures\SpikeNetController.cs" />
+    <Compile Include="CrossoverFunctions.cs" />
+    <Compile Include="DrawBoxes\CreatureVisionBox.cs" />
+    <Compile Include="DrawBoxes\GenomeVisualizer.cs" />
+    <Compile Include="DrawBoxes\RMP_Editor.cs" />
+    <Compile Include="DrawBoxes\RMP_NetNumberVisualizer.cs" />
+    <Compile Include="DrawBoxes\RMP_NetVisualizer.cs" />
+    <Compile Include="DrawBoxes\SpikeNetVisualizer.cs" />
+    <Compile Include="DrawBoxes\WorldBox.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="EntityPainters\AnimatedCreaturePainter.cs" />
+    <Compile Include="EntityPainters\DefaultCreaturePainter.cs" />
+    <Compile Include="EntityPainters\EntityPainter.cs" />
+    <Compile Include="EntityPainters\DefaultEntityPainter.cs" />
+    <Compile Include="EntityPainters\IEntityPainter.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="Forms\EditDefaultSigmoid.cs" />
+    <Compile Include="Forms\EditDoubleGeneForm.cs" />
+    <Compile Include="Forms\EditDoubleGeneListForm.cs" />
+    <Compile Include="Forms\EditValueForms.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Menu\EntitiesMenu\AddCreaturesForm.cs" />
+    <Compile Include="Menu\EntitiesMenu\EditCreatureForm.cs" />
+    <Compile Include="Menu\SimulationMenu\EntityDrawingOptionsForm.cs" />
+    <Compile Include="Menu\WorldMenu\EditSpawnPointForm.cs" />
+    <Compile Include="Menu\WorldMenu\ManageSpawnPointsForm.cs" />
+    <Compile Include="Menu\WorldMenu\EditWorldForm.cs" />
+    <Compile Include="Menu\Editor.cs" />
+    <Compile Include="Menu\EditorData.cs" />
+    <Compile Include="Menu\EntitiesMenu\AddEntitiesForm.cs" />
+    <Compile Include="Menu\EntitiesMenu\EditEntityForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\AnnTemplateForms\CreateAnnTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\AnnTemplateForms\EditAnnTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\CreatureTemplateForms\CreateCreatureTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\CreatureTemplateForms\EditCreatureTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\AnnTemplateForms\ManageAnnTemplatesForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\CreatureTemplateForms\ManageCreatureTemplatesForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\EntityTemplateForms\CreateEntityTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\EntityTemplateForms\EditEntityTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\EntityTemplateForms\ManageEntityTemplatesForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\GenomeTemplateForms\EditGenomeTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\GenomeTemplateForms\GenomeEditPanel.cs" />
+    <Compile Include="Menu\TemplatesMenu\GenomeTemplateForms\ManageGenomeTemplatesForm.cs" />
+    <Compile Include="Menu\FileMenu\NewSimulationForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\WorldTemplateForms\CreateWorldTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\WorldTemplateForms\EditWorldTemplateForm.cs" />
+    <Compile Include="Menu\TemplatesMenu\WorldTemplateForms\ManageWorldTemplatesForm.cs" />
+    <Compile Include="NeuralNets\RMP\Forms\NeuronForms.cs" />
+    <Compile Include="NeuralNets\RMP\Forms\NeuronGeneForms.cs" />
+    <Compile Include="NeuralNets\RMP\Forms\RandomizeForm.cs" />
+    <Compile Include="NeuralNets\RMP\RMP_Chromosome.cs" />
+    <Compile Include="NeuralNets\RMP\RMP_Connection.cs" />
+    <Compile Include="NeuralNets\RMP\RMP_InputNeuron.cs" />
+    <Compile Include="NeuralNets\RMP\RMP_Net.cs" />
+    <Compile Include="NeuralNets\RMP\RMP_Neuron.cs" />
+    <Compile Include="NeuralNets\RMP\RMP_OutputNeuron.cs" />
+    <Compile Include="NeuralNets\SpikeNet\SpConnection.cs" />
+    <Compile Include="NeuralNets\SpikeNet\Spike.cs" />
+    <Compile Include="NeuralNets\SpikeNet\SpikeNet.cs" />
+    <Compile Include="NeuralNets\SpikeNet\SpikeNetChromosome.cs" />
+    <Compile Include="NeuralNets\SpikeNet\SpInputNeuron.cs" />
+    <Compile Include="NeuralNets\SpikeNet\SpNeuron.cs" />
+    <Compile Include="NeuralNets\SpikeNet\SpOutputNeuron.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadOnlyDictionary.cs" />
+    <Compile Include="SigmoidFunctions.cs" />
+    <Compile Include="Simulation.cs" />
+    <Compile Include="States\InitializeState.cs" />
+    <Compile Include="Worlds\FitnessWorld.cs" />
+    <Compile Include="Worlds\FoodWorld.cs" />
+    <Compile Include="Worlds\World.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\TakaGUI\TakaGUI\TakaGUI.csproj">
+      <Project>{1FC11087-5C8A-4C0A-82A6-9244A988E1C3}</Project>
+      <Name>TakaGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EvoSim\EvoSim.csproj">
+      <Project>{B22E6771-D8F4-4C6A-9968-BA94B8C85632}</Project>
+      <Name>EvoSim</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EvoAppContent\EvoAppContent.contentproj">
+      <Name>EvoAppContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{D0C0E4F1-EB4D-4535-83CC-2B578BD7D007}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\EntityPainters\defaultEntityPainter">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="EvoApp_TemporaryKey.pfx" />
+    <Content Include="skins\default\checkBox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\closeButton">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\columnListBox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\comboBox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\console">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\cursors">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\default.skin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\entityEditBox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\fileSelector">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\fonts">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\form">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\fpsMeter">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\gameWorldEditBox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\label">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\resizableButton">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\scrollbars">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\genomeVisualizer">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\RMP_NetNumberVisualizer">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\RMP_NetVisualizer">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\spikeNetVisualizer">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\worldBox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\slider">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\splitPanels">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\tabContainer">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\textField">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\toolbar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\EntityPainters\animatedCreaturePainter">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\default\Simulation\EntityPainters\defaultCreaturePainter">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

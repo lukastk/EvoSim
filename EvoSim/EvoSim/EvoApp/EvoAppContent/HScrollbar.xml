@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<Item>HScrollbar/barButton.png</Item>
+	<Item>HScrollbar/barButtonPressed.png</Item>
+	<Item>HScrollbar/barInside.png</Item>
+	<Item>HScrollbar/scrollerEdge.png</Item>
+	<Item>HScrollbar/scrollerInside.png</Item>
+	<Item>HScrollbar/scrollerCenter.png</Item>
+  </Asset>
+</XnaContent>

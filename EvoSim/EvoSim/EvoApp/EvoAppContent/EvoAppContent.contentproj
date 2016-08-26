@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D0C0E4F1-EB4D-4535-83CC-2B578BD7D007}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>EvoAppContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckBox.xml">
+      <Name>CheckBox</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="CloseButton.xml">
+      <Name>CloseButton</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="ColumnListBox.xml">
+      <Name>ColumnListBox</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="ComboBox.xml">
+      <Name>ComboBox</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="Cursors.xml">
+      <Name>Cursors</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="FileSelector.xml">
+      <Name>FileSelector</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="Form.xml">
+      <Name>Form</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="HScrollbar.xml">
+      <Name>HScrollbar</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="pixel.png">
+      <Name>pixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="ResizableButton.xml">
+      <Name>ResizableButton</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="Slider.xml">
+      <Name>Slider</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="TabContainer.xml">
+      <Name>TabContainer</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="TextField.xml">
+      <Name>TextField</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="Toolbar.xml">
+      <Name>Toolbar</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+    <Compile Include="VScrollbar.xml">
+      <Name>VScrollbar</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\fontLarge.png">
+      <Name>fontLarge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Fonts\fontMedium.png">
+      <Name>fontMedium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Fonts\fontSmall.png">
+      <Name>fontSmall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SpriteSheetPipeline\SpriteSheetPipeline.csproj">
+      <Project>{25146084-89AA-4A55-8D32-E237CBA223C0}</Project>
+      <Name>SpriteSheetPipeline</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Simulation\EntityTextures\circle.png">
+      <Name>circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Simulation\EntityTextures\creature.png">
+      <Name>creature</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Simulation\RMP_NetVisualizer.xml">
+      <Name>RMP_NetVisualizer</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="Simulation\EntityTextures\smallCircle.png">
+      <Name>smallCircle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Simulation\SpikeNetVisualizer.xml">
+      <Name>SpikeNetVisualizer</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+    <Compile Include="Simulation\WorldBox.xml">
+      <Name>WorldBox</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>SpriteSheetProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Simulation\EntityTextures\creatureSheet.png">
+      <Name>creatureSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

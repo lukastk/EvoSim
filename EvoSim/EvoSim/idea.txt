@@ -1,0 +1,1 @@
+- Creatures has traits like Health, Max Speed, Max Acceleration. The creature can increase these by eating special "power pellets". There is also the opposite kind which is called "poison pellets".

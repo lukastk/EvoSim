@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<Item>Simulation/EntityTextures/creature.png</Item>
+	<Item>Simulation/EntityTextures/circle.png</Item>
+  </Asset>
+</XnaContent>

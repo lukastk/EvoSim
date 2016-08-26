@@ -1,0 +1,9 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Simulation/SpikeNetVisualizer"
+USE_SPRITESHEET "Simulation/SpikeNetVisualizer"
+
+Circle				Simulation/smallCircle
+SmallCircle			Simulation/smallCircle

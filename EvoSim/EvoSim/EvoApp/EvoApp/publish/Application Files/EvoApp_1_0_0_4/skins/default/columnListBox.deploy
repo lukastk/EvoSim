@@ -1,0 +1,54 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "ColumnListBox"
+USE_SPRITESHEET "ColumnListBox"
+
+# BODY ==============================================
+
+TopLeftCorner						ColumnListBox/topLeftCorner
+TopRightCorner						ColumnListBox/topRightCorner
+BottomLeftCorner					ColumnListBox/bottomLeftCorner
+BottomRightCorner					ColumnListBox/bottomRightCorner
+
+TopBorder							ColumnListBox/topBorder
+BottomBorder						ColumnListBox/bottomBorder
+LeftBorder							ColumnListBox/leftBorder
+RightBorder							ColumnListBox/rightBorder
+
+Inside								ColumnListBox/inside
+
+# BUTTON ==============================================
+
+ButtonTopLeftCorner					ColumnListBox/Button/topLeftCorner
+ButtonTopRightCorner				ColumnListBox/Button/topRightCorner
+ButtonBottomLeftCorner				ColumnListBox/Button/bottomLeftCorner
+ButtonBottomRightCorner				ColumnListBox/Button/bottomRightCorner
+
+ButtonTopBorder						ColumnListBox/Button/topBorder
+ButtonBottomBorder					ColumnListBox/Button/bottomBorder
+ButtonLeftBorder					ColumnListBox/Button/leftBorder
+ButtonRightBorder					ColumnListBox/Button/rightBorder
+
+ButtonInside						ColumnListBox/Button/inside
+
+ButtonInsidePressed					ColumnListBox/Button/insidePressed
+
+[FONTS]
+
+CATEGORY "ColumnListBox"
+
+Font	@General;FontSmall
+
+[COLORS]
+
+CATEGORY "ColumnListBox"
+
+# COLOURNAME				RED     GREEN   BLUE
+# ==============================================
+ColumnButtonColor			255		255		255
+ListElementColor			0		0		0
+
+SelectedElementColor		60		100		255
+ElementUnderMouseColor		100		149		255

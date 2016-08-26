@@ -1,0 +1,9 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "CloseButton"
+USE_SPRITESHEET "CloseButton"
+
+ButtonTexture					CloseButton/buttonTexture
+ButtonTexturePressed			CloseButton/buttonTexturePressed

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<!--Body-->
+	<Item>Form/Body/topLeftCorner.png</Item>
+	<Item>Form/Body/topRightCorner.png</Item>
+	<Item>Form/Body/bottomLeftCorner.png</Item>
+	<Item>Form/Body/bottomRightCorner.png</Item>
+
+	<Item>Form/Body/topBorder.png</Item>
+	<Item>Form/Body/bottomBorder.png</Item>
+	<Item>Form/Body/leftBorder.png</Item>
+	<Item>Form/Body/rightBorder.png</Item>
+
+	<Item>Form/Body/leftHeader.png</Item>
+	<Item>Form/Body/rightHeader.png</Item>
+	<Item>Form/Body/topHeader.png</Item>
+
+	<Item>Form/Body/inside.png</Item>
+
+	<!--Buttons-->
+	<Item>Form/Buttons/closeButton.png</Item>
+  </Asset>
+</XnaContent>

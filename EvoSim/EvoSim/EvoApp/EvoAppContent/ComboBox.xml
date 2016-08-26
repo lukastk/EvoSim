@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<!-- ComboBox -->
+	<Item>ComboBox/topLeftCorner.png</Item>
+	<Item>ComboBox/topRightCorner.png</Item>
+	<Item>ComboBox/bottomLeftCorner.png</Item>
+	<Item>ComboBox/bottomRightCorner.png</Item>
+
+	<Item>ComboBox/topBorder.png</Item>
+	<Item>ComboBox/bottomBorder.png</Item>
+	<Item>ComboBox/leftBorder.png</Item>
+	<Item>ComboBox/rightBorder.png</Item>
+
+	<Item>ComboBox/inside.png</Item>
+
+	<!-- Icon -->
+	<Item>ComboBox/Icon/topLeftCorner.png</Item>
+	<Item>ComboBox/Icon/topRightCorner.png</Item>
+	<Item>ComboBox/Icon/bottomLeftCorner.png</Item>
+	<Item>ComboBox/Icon/bottomRightCorner.png</Item>
+
+	<Item>ComboBox/Icon/topBorder.png</Item>
+	<Item>ComboBox/Icon/bottomBorder.png</Item>
+	<Item>ComboBox/Icon/leftBorder.png</Item>
+	<Item>ComboBox/Icon/rightBorder.png</Item>
+
+	<Item>ComboBox/Icon/inside.png</Item>
+
+	<Item>ComboBox/Icon/icon.png</Item>
+
+	<Item>ComboBox/Icon/Pressed/topLeftCorner.png</Item>
+	<Item>ComboBox/Icon/Pressed/topRightCorner.png</Item>
+	<Item>ComboBox/Icon/Pressed/bottomLeftCorner.png</Item>
+	<Item>ComboBox/Icon/Pressed/bottomRightCorner.png</Item>
+
+	<Item>ComboBox/Icon/Pressed/topBorder.png</Item>
+	<Item>ComboBox/Icon/Pressed/bottomBorder.png</Item>
+	<Item>ComboBox/Icon/Pressed/leftBorder.png</Item>
+	<Item>ComboBox/Icon/Pressed/rightBorder.png</Item>
+
+	<Item>ComboBox/Icon/Pressed/inside.png</Item>
+
+	<Item>ComboBox/Icon/Pressed/icon.png</Item>
+
+  </Asset>
+</XnaContent>

@@ -1,0 +1,10 @@
+USE_CONTENTDIR "Content"
+
+[FONTS]
+
+VAR characters "ABCDEFGHIJKLMNOPQRSTUVWXYZ|#|abcdefghijklmnopqrstuvwxyz|#|0123456789#+=-/\\|*%^~(){}[]|#|<>\"',.!?:;&$@ "
+
+#NAME							TEXTURE				CHARACTERS		CHARWIDTH	CHARHEIGHT	GRIDSIZE	HDISTANCE	VDISTANCE
+
+FontSmall						Fonts/fontSmall		$characters		5			7			1			1			1
+FontMedium						Fonts/fontMedium	$characters		10			14			1			1			1

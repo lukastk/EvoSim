@@ -1,0 +1,34 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "Form"
+USE_SPRITESHEET "Form"
+
+# BODY ==============================================
+
+TopLeftCorner					Form/Body/topLeftCorner
+TopRightCorner					Form/Body/topRightCorner
+BottomLeftCorner				Form/Body/bottomLeftCorner
+BottomRightCorner				Form/Body/bottomRightCorner
+
+TopBorder						Form/Body/topBorder
+BottomBorder					Form/Body/bottomBorder
+LeftBorder						Form/Body/leftBorder
+RightBorder						Form/Body/rightBorder
+
+LeftHeader						Form/Body/leftHeader
+RightHeader						Form/Body/rightHeader
+TopHeader						Form/Body/topHeader
+
+Inside							Form/Body/inside
+
+# BUTTONS ===========================================
+
+CloseButton						Form/Buttons/closeButton
+
+[FONTS]
+
+CATEGORY "Form"
+
+Font							@General;FontSmall

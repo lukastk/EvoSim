@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<!--Body-->
+	<Item>TabContainer/topLeftCorner.png</Item>
+	<Item>TabContainer/topRightCorner.png</Item>
+	<Item>TabContainer/bottomLeftCorner.png</Item>
+	<Item>TabContainer/bottomRightCorner.png</Item>
+
+	<Item>TabContainer/topBorder.png</Item>
+	<Item>TabContainer/bottomBorder.png</Item>
+	<Item>TabContainer/leftBorder.png</Item>
+	<Item>TabContainer/rightBorder.png</Item>
+
+	<!--Buttons-->
+	<Item>TabContainer/Button/topLeftCorner.png</Item>
+	<Item>TabContainer/Button/topRightCorner.png</Item>
+	<Item>TabContainer/Button/bottomLeftCorner.png</Item>
+	<Item>TabContainer/Button/bottomRightCorner.png</Item>
+
+	<Item>TabContainer/Button/topBorder.png</Item>
+	<Item>TabContainer/Button/bottomBorder.png</Item>
+	<Item>TabContainer/Button/leftBorder.png</Item>
+	<Item>TabContainer/Button/rightBorder.png</Item>
+
+	<Item>TabContainer/Button/inside.png</Item>
+
+	<Item>TabContainer/Button/insidePressed.png</Item>
+  </Asset>
+</XnaContent>

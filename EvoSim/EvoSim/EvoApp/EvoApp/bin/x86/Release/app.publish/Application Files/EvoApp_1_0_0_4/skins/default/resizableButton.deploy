@@ -1,0 +1,48 @@
+USE_CONTENTDIR "Content"
+
+[TEXTURES]
+
+CATEGORY "ResizableButton"
+USE_SPRITESHEET "ResizableButton"
+
+# NOT PRESSED ==========================================
+
+TopLeftCorner					ResizableButton/topLeftCorner
+TopRightCorner					ResizableButton/topRightCorner
+BottomLeftCorner				ResizableButton/bottomLeftCorner
+BottomRightCorner				ResizableButton/bottomRightCorner
+
+TopBorder						ResizableButton/topBorder
+BottomBorder					ResizableButton/bottomBorder
+LeftBorder						ResizableButton/leftBorder
+RightBorder						ResizableButton/rightBorder
+
+LeftHeader						ResizableButton/leftHeader
+RightHeader						ResizableButton/rightHeader
+TopHeader						ResizableButton/topHeader
+
+Inside							ResizableButton/inside
+
+# PRESSED ==============================================
+
+TopLeftCornerPressed			ResizableButton/Pressed/topLeftCorner
+TopRightCornerPressed			ResizableButton/Pressed/topRightCorner
+BottomLeftCornerPressed			ResizableButton/Pressed/bottomLeftCorner
+BottomRightCornerPressed		ResizableButton/Pressed/bottomRightCorner
+
+TopBorderPressed				ResizableButton/Pressed/topBorder
+BottomBorderPressed				ResizableButton/Pressed/bottomBorder
+LeftBorderPressed				ResizableButton/Pressed/leftBorder
+RightBorderPressed				ResizableButton/Pressed/rightBorder
+
+LeftHeaderPressed				ResizableButton/Pressed/leftHeader
+RightHeaderPressed				ResizableButton/Pressed/rightHeader
+TopHeaderPressed				ResizableButton/Pressed/topHeader
+
+InsidePressed					ResizableButton/Pressed/inside
+
+[FONTS]
+
+CATEGORY "ResizableButton"
+
+Font @General;FontSmall

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+	<Item>CloseButton/buttonTexture.png</Item>
+	<Item>CloseButton/buttonTexturePressed.png</Item>
+  </Asset>
+</XnaContent>
